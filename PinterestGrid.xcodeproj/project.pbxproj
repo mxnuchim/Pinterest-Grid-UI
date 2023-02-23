@@ -11,6 +11,7 @@
 		7E9C9D9329A642BB00368301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C9D9229A642BB00368301 /* ContentView.swift */; };
 		7E9C9D9529A642BC00368301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9C9D9429A642BC00368301 /* Assets.xcassets */; };
 		7E9C9D9829A642BC00368301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E9C9D9729A642BC00368301 /* Preview Assets.xcassets */; };
+		7E9C9D9F29A6437100368301 /* PinterestGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9C9D9E29A6437100368301 /* PinterestGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7E9C9D9229A642BB00368301 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E9C9D9429A642BC00368301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E9C9D9729A642BC00368301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E9C9D9E29A6437100368301 /* PinterestGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7E9C9D9029A642BB00368301 /* PinterestGridApp.swift */,
 				7E9C9D9229A642BB00368301 /* ContentView.swift */,
+				7E9C9D9E29A6437100368301 /* PinterestGridView.swift */,
 				7E9C9D9429A642BC00368301 /* Assets.xcassets */,
 				7E9C9D9629A642BC00368301 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9C9D9F29A6437100368301 /* PinterestGridView.swift in Sources */,
 				7E9C9D9329A642BB00368301 /* ContentView.swift in Sources */,
 				7E9C9D9129A642BB00368301 /* PinterestGridApp.swift in Sources */,
 			);
@@ -275,12 +279,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = manuchim.PinterestGrid;
+				PRODUCT_BUNDLE_IDENTIFIER = manuchim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -304,12 +309,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = manuchim.PinterestGrid;
+				PRODUCT_BUNDLE_IDENTIFIER = manuchim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
